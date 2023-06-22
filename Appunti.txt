@@ -35,4 +35,16 @@ Step successivo :
 
 creare un file js che contenga le funzioni che si usano per gulp
 
+dopo aver create le funzioni di gulpfile.js
 
+usa nel terminale il comando gulp
+
+gulp
+
+se non va gulp non è installato in maniera globale, quindi:
+
+npm install
+
+npx gulp
+
+fatto questo si vedrà una cartella css con dentro index.css, ovvero index.scss compilato in css
