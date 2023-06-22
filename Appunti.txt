@@ -1,3 +1,4 @@
+Lezione 1
 Css on steroyd
 
 Sass ti permette di creare la tua libreria CSS 
@@ -8,6 +9,8 @@ Basics:
 Servono CSS 
 Basi di qualsiasi linguaggio di programmazione
 
+
+LEZIONE 2 SETUP GULP & SASS compilator
 In generale i browser non riescono a leggere il sass, quindi bisogna 
 compilarlo in css --> installa l'estensine Live Sass Compiler.
 
@@ -48,3 +51,9 @@ npm install
 npx gulp
 
 fatto questo si vedrà una cartella css con dentro index.css, ovvero index.scss compilato in css
+
+
+LEZIONE 3 VARIABILI
+
+le variabili sono utili in css quando hai un valore specifico 
+che vuoi riutilizzare durante tutto il codice
