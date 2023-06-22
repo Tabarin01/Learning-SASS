@@ -1,0 +1,38 @@
+Css on steroyd
+
+Sass ti permette di creare la tua libreria CSS 
+importando poi ciò che serve.
+Permette di usare variabili, loop
+
+Basics: 
+Servono CSS 
+Basi di qualsiasi linguaggio di programmazione
+
+In generale i browser non riescono a leggere il sass, quindi bisogna 
+compilarlo in css --> installa l'estensine Live Sass Compiler.
+
+Si può usare anche il task runner chiamato gulp
+per configurarlo bisogna avere node.js --> bisogna scaricarlo.
+Per verificare che node sia presente apri un terminale:
+
+node -v
+
+Dopodichè: 
+npm init
+creerà il file json -- grazie al quale potremmo installare gulp e sass
+
+Step successivo installa gulp e sass:
+
+npm install gulp gulp-sass sass --save-dev
+
+gulp è il compilatore per sass
+
+gulp-sass è il plug-in dell'attività sass per gulp
+
+--save-dev archivierà i pacchetti installati nel package.json
+
+Step successivo :
+
+creare un file js che contenga le funzioni che si usano per gulp
+
+
