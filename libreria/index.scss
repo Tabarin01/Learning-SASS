@@ -1,0 +1,159 @@
+// .sass e .scss
+/*
+Questo è esattamente uguale al css, tutto quello che si può fare in 
+vanilla css si può fare in scss.
+*/
+//Lesson 4 import variables
+//Variables and functions
+@import "variables";
+//LESSON 5 import base
+//base & layout
+@import "base";
+
+//colors
+
+//components (button, card, navbar)
+
+
+//utilities (margin, padding, opacity)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* reset styles */
+// * {
+//   color: inherit;
+//   margin: 0;
+// }
+
+// body {
+//   font-family: Poppins;
+// }
+
+// ul {
+//   padding: 0;
+//   list-style-type: none;
+// }
+
+// a {
+//   text-decoration: none;
+// }
+
+// hr {
+//   border: 0;
+//   border-top: 1px dotted #efefef;
+// }
+
+// img {
+//   max-width: 100%;
+// }
+
+// Lesson 1
+//h1 {
+//   a {
+//     color: blue;
+//   }
+// }
+
+// Lesson 3 variabili  colori
+// $primary: #326dee;
+// $secondary: #1ac888;
+// $error: #d21b1b;
+// $info: #f6c31c;
+// // spacing
+// $base-padding: 0.75rem;
+// $base-margin: 0.75rem;
+
+// // borders
+// $base-border-thickness: 1px;
+// $base-border-radius: 20px;
+
+// !!!! IN LESSON 5 si sposta tutto su _base.scss
+// h1 {
+//   color: $primary;
+//   margin-bottom: $base-margin;
+// }
+// a {
+//   color: $secondary;
+// }
+// button {
+//   color: white;
+//   border: 0;
+//   background: $primary;
+
+//   border-radius: $base-border-radius;
+//   padding: $base-padding;
+// }
+// .error {
+//   color: $error;
+//   border-color: $error;
+//   border-style: solid;
+
+//   margin: $base-margin;
+//   padding: $base-padding;
+//   border-radius: $base-border-radius;
+//   border-width: $base-border-thickness;
+// }
+// .notification {
+//   color: $secondary;
+//   border-color: $secondary;
+//   border-style: solid;
+
+//   margin: $base-margin;
+//   padding: $base-padding;
+//   border-radius: $base-border-radius;
+//   border-width: $base-border-thickness;
+// }

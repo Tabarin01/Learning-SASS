@@ -3,13 +3,13 @@ const sass = require("gulp-sass")(require("sass")); // import gulp-sass plug-in 
 
 function buildStyles() {
   // compiling sass into css
-  return src("*.scss").pipe(sass()).pipe(dest("css"));
+  return src("libreria/**/*.scss").pipe(sass()).pipe(dest("css"));
   // prende index.scss, lo inserisce e lo converte in css
 }
 
 function watchTask() {
   // funzione per leggere il file sas per le modifiche da ricompilare ad ogni cambiamento
-  watch(["*.scss"], buildStyles);
+  watch(["libreria/**/*.scss"], buildStyles);
   //invoca watch  e come argomento gli passiamo ciò che vogliamo leggere
   // e come secondo argomento la funzione compilatore
 }

@@ -62,3 +62,15 @@ LEZIONE 4 Partials & @import
 
 creando un file variables.scss possiamo usarlo come contenitore delle variabili e poi importarlo nel scss principale
 usando _variables il trattino permetterà di non compilare in css 
+
+LEZIONE 5 Project Structure
+
+Creare cartella contenente tutto l'scss
+Ordine di importo: ciò che è sottostante prende da sopra
+
+Gerarchia di importazione
+1-Variabili e funzioni
+2-base & layout
+3-colori
+4-components (button, card, navbar)
+5-utilities (margin, padding, opacity)
